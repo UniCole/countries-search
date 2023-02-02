@@ -1,4 +1,4 @@
-# countries of the world 
+# Countries of the world 
 ## Second exam from "John Bryce" college based on: HTML, CSS, Javascript, AJAX
 
 ### Project requirements:
