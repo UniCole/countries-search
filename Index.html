@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second exam</title>
+
+    <!-- h1 font: -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <h1 class="gradient-text">Countries of the world!</h1>
+    <br>
+
+    <button id="searchAllBtn" class="btn">Display all countries</button>
+    <br><br>
+
+    <label>Search for a specific country:</label>
+    <!-- <input type="text" value="" id="searchSpecific"> -->
+    <input type="search" value="" name="q" class="input" placeholder="enter your search" id="searchSpecific"
+        autocomplete="off" required>
+    <button id="searchSpecificBtn" class="btn">Search</button>
+    <br><br>
+
+    <div id="displayDiv">
+
+        <p id="totalPopulationPar"></p>
+        <p id="countriesAmountPar"></p>
+        <p id="averagePopulationPar"></p>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Country official name</th>
+                    <th>Number of citizens</th>
+                </tr>
+            </thead>
+            <tbody id="tBody">
+
+            </tbody>
+
+        </table>
+
+
+        <script src="main.js"></script>
+</body>
+
+</html>
